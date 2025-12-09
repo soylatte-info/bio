@@ -1,4 +1,4 @@
-# Videos Archives
+# Video Archives
 
 映画やドラマなどの視聴記録です。
 
