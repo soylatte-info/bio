@@ -1,0 +1,38 @@
+site_name: SOYLATTE INFO
+site_url: https://soylatte-info.github.io/bio/
+repo_url: https://github.com/soylatte-info/bio
+repo_name: GitHub
+
+theme:
+  name: material
+  language: ja
+  favicon: assets/favicon.png
+  palette:
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  features:
+    - navigation.tabs # メニューをタブ化
+    - navigation.sections # セクション分け
+    - navigation.top # トップに戻るボタン
+    - search.suggest # 検索サジェスト
+    - content.code.copy # コードコピーボタン
+
+# 拡張機能
+markdown_extensions:
+  - admonition # 注釈ブロック
+  - pymdownx.details # 折りたたみ機能
+  - pymdownx.superfences # コードブロック拡張
+  - attr_list # 画像サイズ調整などに必要
+
+copyright: >
+  Copyright &copy; 2025 soylatte
