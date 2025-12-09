@@ -30,7 +30,7 @@ theme:
 nav:
   - Home: index.md
   - Archives:
-      - Videos: videos.md
+      - Video: videos.md
 
 # 拡張機能
 markdown_extensions:
